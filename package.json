@@ -1,0 +1,25 @@
+{
+  "name": "brainfk",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeanffy/brainfk.git"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/main.mts",
+    "start:js": "node dist/main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
